@@ -16,7 +16,7 @@ plugins:
   - mermaid2:
       # support for sandbox environment, no cdn access
       version: 10.8.0
-      javascript: ./js/mermaid.min.js
+      # javascript: ./js/mermaid.min.js
 
 markdown_extensions:
   - pymdownx.superfences:
