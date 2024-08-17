@@ -14,7 +14,7 @@ plugins:
   - search
   - mkdocs_pymdownx_material_extras
   - mermaid2:
-      # for sandbox environments withut cdn access
+      # for sandbox environments without cdn access
       version: 10.8.0
       javascript: ./js/mermaid.min.js
 
@@ -28,9 +28,6 @@ markdown_extensions:
           # https://pypi.org/project/mkdocs-pymdownx-material-extras
           # https://mkdocs-mermaid2.readthedocs.io/en/latest/superfences
           format: !!python/name:pymdownx.superfences.fence_code_format
-
-  - mermaid2:
-      version: 10.8.0
 
 nav:
   # - Home: home.md
