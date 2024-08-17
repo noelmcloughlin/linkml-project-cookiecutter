@@ -14,8 +14,7 @@ plugins:
   - search
   - mkdocs_pymdownx_material_extras
   - mermaid2:
-      # prevent mkdocs-mermaid2-plugin from pulling (a version) from internet
-      # which does not work in sandboxed environment anyway
+      # for sandbox environments withut cdn access
       version: 10.8.0
       javascript: ./js/mermaid.min.js
 
@@ -30,13 +29,8 @@ markdown_extensions:
           # https://mkdocs-mermaid2.readthedocs.io/en/latest/superfences
           format: !!python/name:pymdownx.superfences.fence_code_format
 
-  - mermaid2
   - mermaid2:
-      version: 10.9.0
-  - mermaid2:
-      # for sandbox environments withut cnd access
       version: 10.8.0
-      javascript: ./js/mermaid.min.js
 
 nav:
   # - Home: home.md
