@@ -30,6 +30,10 @@ markdown_extensions:
           # https://mkdocs-mermaid2.readthedocs.io/en/latest/superfences
           format: !!python/name:pymdownx.superfences.fence_code_format
 
+  - mermaid2
+  - mermaid2:
+      version: 10.9.0
+
 nav:
   # - Home: home.md
   - Index: index.md
