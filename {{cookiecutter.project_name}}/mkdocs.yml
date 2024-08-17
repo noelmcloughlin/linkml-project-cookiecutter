@@ -13,7 +13,7 @@ theme:
 plugins:
   - search
   - mkdocs_pymdownx_material_extras
-  - mermaid2
+  # mermaid2
   - mermaid2:
       # support for sandbox environment, no cdn access
       version: 10.8.0
